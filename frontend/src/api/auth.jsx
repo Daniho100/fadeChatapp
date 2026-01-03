@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8081";
+const API_URL = "https://fadechatapp-backend.onrender.com";
 
 export const api = axios.create({
   baseURL: API_URL,
